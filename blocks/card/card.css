@@ -1,0 +1,25 @@
+.card {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width: 600px;
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin: auto;
+        row-gap: 25px;
+    }
+}

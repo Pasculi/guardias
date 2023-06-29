@@ -1,0 +1,19 @@
+.formulario__btn-cerrar{
+    position:absolute;
+    top:5px;
+    right:5px;
+    border:2px solid rgba(170, 23, 23, 0.507);
+    background-color:red;
+    padding:0 5px;
+    color:#fff;
+    border-radius: 50%;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+
+.formulario__btn-cerrar:hover{
+    box-shadow: 0 0 5px rgba(143, 3, 3, 0.6);
+}
+.formulario__btn-cerrar:active{
+    transform:scale(.8)
+}

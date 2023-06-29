@@ -1,0 +1,11 @@
+.formulario{
+    width: 100%;
+    height: calc(100vh + 110px);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:0;
+    background-color: rgba(24, 22, 22, 0.432);
+    transition: all 1s ease .5;
+}

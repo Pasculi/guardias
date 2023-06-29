@@ -1,0 +1,11 @@
+.formulario__form{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    width: 330px;
+    height: 200px;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-radius: 8px;
+    margin-top:10px;
+}

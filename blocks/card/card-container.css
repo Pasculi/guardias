@@ -1,0 +1,20 @@
+.card-container{
+    display:flex;
+    margin: auto;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 280px;
+    height: 300px;
+    color:var(--color-azul-claro);
+    border-radius:8px;
+    background-color: var(--color-fondo-secundario);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
+    row-gap: 25px;
+    transition: transform 0.5s;
+}
+.card-container:hover{
+    transform: scale(1.03);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 11px 12px rgba(0,0,0,0.22);
+    row-gap: 25px;
+}

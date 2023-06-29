@@ -1,0 +1,7 @@
+.card__title{
+    font-size:29px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom:15px;
+    border-bottom:3px solid var(--color-verde-oscuro)
+}

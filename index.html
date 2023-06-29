@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page/index.css">
+    <title>Guardias</title>
+</head>
+<body class="root">
+    <div class="container">
+        <!-- INICIO HEADER -->
+        <header class="header">
+            <img class="header__logo" src="images/Telsur_logo_2019.svg.png" alt="" class="logo">
+            <p class="header__fecha"></p>
+            <button class="header__btn-edit">Editar</button>
+        </header>
+        
+        <main class="main">
+            <h1 class="main__title">Guardias</h1>
+        </main>
+        <!-- FIN HEADER -->
+        <!-- INICIO CARD CONTAINER -->
+        <section class="card">
+            <div class="card-container">
+                <h2 class="card__title card__title_Sub" >Guardia Subtel</h2>
+                <h2 class="card__nombre card__nombre_Sub">Nombre</h2>
+                <div class="card__phone card__phone_Sub">
+                    <img class="card__phone-icon" src="images/icons8-call-64_2.png" alt="Smartphone" >
+                    <h2 class="card__phone-number card__phone-number_Sub">Phone</h2>
+                </div>
+            </div>
+            <div class="card-container">
+                <h2 class="card__title card__title_B">Guardia B</h2>
+                <h2 class="card__nombre card__nombre_B">Nombre</h2>
+                <div class="card__phone card__phone_B">
+                    <img class="card__phone-icon" src="images/icons8-call-64_2.png" alt="Smartphone" >
+                    <h2 class="card__phone-number card__phone-number_B">Phone</h2>
+                </div>
+            </div>
+            <div class="card-container">
+                <h2 class="card__title card__title_C">Guardia C</h2>
+                <h2 class="card__nombre card__nombre_C">Nombre</h2>
+                <div class="card__phone card__phone_C">
+                    <img class="card__phone-icon" src="images/icons8-call-64_2.png" alt="Smartphone" >
+                    <h2 class="card__phone-number card__phone-number_C">Phone</h2>
+                </div>
+            </div>
+            <!-- FIN CARD CONTAINER -->
+            
+        </section>
+        
+        <!-- INICIO DE FOOTER -->
+        <footer class="footer">
+            <p><pre>@2023 Jorge Sepúlveda Turpie </p><p>Especialista Monitoreo y Control (CMC)</p></pre>
+        </footer>
+        <!-- FIN DE FOOTER -->
+        
+       
+    </div>
+    <!-- INICIO PIE BANNER -->
+    <section class="banner">
+        <img class="banner__logo banner__logo-telsur" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Telsur_logo_2019.svg/1200px-Telsur_logo_2019.svg.png" alt="" class="banner__image">
+        <img class="banner__logo banner__logo-principal" src="./images/Gtd_logo_2019.svg.png" alt="" class="banner__image">
+        <img class="banner__logo" src="images/Colombia.png" alt="" class="banner__image">
+        <img class="banner__logo" src="images/Peru.png" alt="" class="banner__image">
+        <img class="banner__logo" src="images/España.png" alt="" class="banner__image">
+    </section>
+    <!-- FIN PIE BANNER -->
+     <!-- INICIO DE FORMULARIO -->
+     <section class="formulario">
+         <form class="formulario__form" action="#">
+            <h1 class="formulario__editar">Edición</h1>
+            <h2 class="formulario__btn-cerrar">X</h2>
+            <div class="formulario__selectores">
+                <select class="formulario__select" name="tipo_guardia" id="tipo_guardia">
+                    <option selected disable value="0" id="0">--Seleccionar--</option>
+                    <option class="selectGuardia"  id="1">Subtel</option>
+                    <option class="selectGuardia"  id="2">Guardia B</option>
+                    <option class="selectGuardia"  id="3">Guardia C</option>
+                    
+                </select>
+                <select name="nombre_guardia" id="nombre_guardia">
+                    <option class="optionStart" selected disable id="Seleccionar">--Seleccionar--</option>
+
+                </select>
+            </div>
+            
+        </form>
+    </section>
+    <!-- TERMINO DE FORMULARIO -->
+    <script src="js/index.js"></script>
+</body>
+</html>

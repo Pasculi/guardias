@@ -1,0 +1,52 @@
+/*NORMALIZE*/
+@import url(../vendor/normalize.css);
+
+/*VARABLES*/
+@import url(../vendor/variables.css);
+
+/*FONTS*/
+@import url(../fonts/normalize.css);
+
+/*ROOT*/
+@import url(../blocks/root/root.css);
+
+/*CONTAINER*/
+@import url(../blocks/container/container.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__btn-edit/header__btn-edit.css);
+@import url(../blocks/header/__fecha/header__fecha.css);
+
+/*MAIN*/
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/main__title.css);
+
+/*CARD*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/card-container.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__nombre/card__nombre.css);
+@import url(../blocks/card/__phone/card__phone.css);
+@import url(../blocks/card/__phone/card_phone-icon.css);
+@import url(../blocks/card/__phone/card__phone-number.css);
+
+/*MODAL FORMULARIO*/
+@import url(../blocks/formulario/formulario.css);
+@import url(../blocks/formulario/__editar/formulario__editar.css);
+@import url(../blocks/formulario/__form/formulario__form.css);
+@import url(../blocks/formulario/__selectores/formulario__selectores.css);
+@import url(../blocks/formulario/__btn-cerrar/formulario__btn-cerrar.css);
+@import url(../blocks/formulario/__btn/formulario__btn.css);
+
+
+
+/*FOOTER*/
+@import url(../blocks/footer/footer.css);
+
+/*BANNER*/
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__logo/banner__logo.css);
+@import url(../blocks/banner/__logo/banner__logo-telsur.css);
+@import url(../blocks/banner/__logo/banner__logo-principal.css);
